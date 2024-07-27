@@ -1,4 +1,4 @@
-# BTC P2PKH Adress Reused R value Scanner
+I# BTC P2PKH Adress Reused R value Scanner
 
 ```bash
   ______   _______   __      __  _______   ________  ______
@@ -87,7 +87,7 @@ Ensure you have Python 3.8 or later installed on your system.
 1. **Run the script:**
 
    ```bash
-   python partial_recovery.py # Or python3
+   python reused_scanner.py # Or python3
    ```
 
 2. **Follow the prompts:**
