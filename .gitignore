@@ -1,0 +1,34 @@
+# Virtual Environment
+btc_reused_r_env/
+
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# Distribution / Packaging
+*.egg
+*.egg-info
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/Editor-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
