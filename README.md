@@ -52,8 +52,7 @@ To avoid the reused R value attack, ensure that each transaction uses a unique `
 ## Features
 
 - Scans transactions for reused R values
-- Provides a progress bar for better visibility
-- Displays a simple logo for an improved user experience
+- Shows the transaction ID in which it occurred 
 
 ## Setup
 
