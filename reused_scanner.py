@@ -29,7 +29,7 @@ $$/   $$/ $$/       $$$$$$$$/ $$/   $$/
 #        CryptoAppex          #
 # BTC Reused R Value Scanner  #
 #            Tool             #
-#            V0.1             #
+#            V0.2             #
 #                             #
 ###############################
     """
@@ -73,7 +73,6 @@ def main():
         for i in range(input_len - 1):
             for j in range(i + 1, input_len):
                 if inputs[i][10:74] == inputs[j][10:74]:
-                    print(f"Reused R-Value found between inputs:\n{inputs[i]}\n{inputs[j]}\n")
                     alert_count += 1
                 pbar.update(1)
 
